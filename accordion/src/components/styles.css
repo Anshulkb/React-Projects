@@ -1,0 +1,64 @@
+.panelWidth{
+    width: 500px;
+}
+.wrapper{
+    display: flex;
+    height: 110vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.multiBtn{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 5px outset;
+}
+.accordian{
+    width: 500px;
+}
+
+.item{
+    background-color: grey;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+
+}
+
+.title{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    text-align:start;
+}
+
+.content{
+    color: white;
+    height: auto;
+}
+
+.btnClick{
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 5px inset;
+}
+
+.multiBtn:hover, .btnClick:hover{
+    background-color: lightgrey;
+}
+
+.expandIconSize{
+    font-size: 30px;
+}

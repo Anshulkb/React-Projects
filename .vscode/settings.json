@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "git.ignoreMissingGitWarning": true,
+    "git.enabled": true,
+    "terminal.integrated.profiles.windows": {
+       "git_bash": { 
+          "path": "C:\\Users\\anbhutani\\Downloads\\PortableGit\\bin\\bash.exe"
+       } 
+     },
+    "terminal.integrated.defaultProfile.windows": "git_bash"
+ }
