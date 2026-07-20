@@ -1,0 +1,42 @@
+run typescript
+tsc.cmd <filename.ts>
+node <filename.js>
+
+
+for react- 
+npm start- run app
+
+
+create react app-
+npx create-react-app <app name>
+
+open vs code from cmd- 
+code .
+
+to remove error- 
+npm install --save-dev ajv@^8 
+
+react router- 
+npm i react-router-dom
+
+react icons-
+npm i react-icons
+
+
+merging 2 objects-
+1.
+const circle = {prop: value}
+const obj= Object.assign({color: 'blue'},circle); // this will merge all the content of circle with declared object 
+//output
+{color: 'blue', prop:value}
+
+2.
+Use spread operator- 
+const obj= {...circle}
+
+types of for loop-
+traditional
+for...in -> for iterating over keys
+for...of -> for iterating over values (variable must be an array for this method)
+
+splice is used to add element in between another element. ex- splice(index,itemToDelete,itemTAdd);
