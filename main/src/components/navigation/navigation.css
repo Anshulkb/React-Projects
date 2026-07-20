@@ -1,0 +1,17 @@
+.details-page-container {
+  margin-top: 50px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  width: 100%;
+}
+
+.details-page-container.active {
+  /* margin-top: 50px; */
+  /* display: flex; */
+  justify-content: start;
+  align-items: start;
+  /* flex-direction: column; */
+  /* width: 100%; */
+}

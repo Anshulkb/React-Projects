@@ -1,64 +1,64 @@
-.panelWidth{
-    width: 500px;
+.panelWidth {
+  width: 500px;
 }
-.wrapper{
-    display: flex;
-    height: 110vh;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.multiBtn{
-    padding: 10px 20px;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: white;
-    color: black;
-    cursor: pointer;
-    border: 5px outset;
-}
-.accordian{
-    width: 500px;
+.wrapper {
+  display: flex;
+  /* height: 110vh;
+    width: 100vw; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.item{
-    background-color: grey;
-    margin-bottom: 10px;
-    padding: 10px 20px;
-
+.multiBtn {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: 5px outset;
+}
+.accordian {
+  width: 500px;
 }
 
-.title{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    text-align:start;
+.item {
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 10px 20px;
 }
 
-.content{
-    color: white;
-    height: auto;
+.title {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  text-align: start;
 }
 
-.btnClick{
-    background: green;
-    color: white;
-    padding: 10px 20px;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    border: 5px inset;
+.content {
+  color: white;
+  height: auto;
 }
 
-.multiBtn:hover, .btnClick:hover{
-    background-color: lightgrey;
+.btnClick {
+  background: green;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 5px inset;
 }
 
-.expandIconSize{
-    font-size: 30px;
+.multiBtn:hover,
+.btnClick:hover {
+  background-color: lightgrey;
+}
+
+.expandIconSize {
+  font-size: 30px;
 }

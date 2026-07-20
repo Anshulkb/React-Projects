@@ -1,0 +1,38 @@
+.container {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: flex-start; */
+  /* gap: 10px; */
+  /* flex-direction: column; */
+  padding: 0.5rem;
+}
+.productsGridContainer {
+  display: grid;
+  column-gap: 10px;
+  row-gap: 15px;
+  grid-template-columns: auto auto auto auto auto;
+  padding-bottom: 0.5rem;
+}
+
+.productsDetailsContainer {
+  width: 15rem;
+  height: 15rem;
+  border: black solid 0.0625px;
+  padding-top: 0.25rem;
+}
+.productImg {
+  width: 100px;
+  height: 100px;
+}
+.noMargin {
+  margin: 0;
+}
+.noOverflow {
+  height: 3rem;
+  line-height: 1.5rem;
+  overflow: hidden;
+}
+.loadBtn {
+  width: 5rem;
+  height: 2.5rem;
+}

@@ -1,0 +1,25 @@
+.navigation-container {
+  background-color: #2f4f4f;
+  height: 95vh;
+  width: 50vh;
+}
+
+.expand-icon {
+  display: flex;
+  align-items: center;
+  line-height: 0.05rem;
+}
+.medium-padding-left {
+  padding-left: 1rem;
+}
+
+.menu-item-show-icon {
+  cursor: pointer;
+}
+.list-no-style {
+  list-style: none;
+}
+
+.white-color {
+  color: #fff;
+}
